@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saavn Template</title>
+
+    <style>
+     .saavn_body{
+       
+        background-color: #dce0de;
+        display: flex;
+        align-items: center;
+        max-width: 60%;
+        border-radius: 4px;
+        padding: 5px;
+        transition: all .5s ease-in-out;
+     }
+     .poster{
+        width: 30%;
+     
+        padding: 5px;
+     }
+     .title{
+        width: 70%;
+        padding: 5px;
+        font-weight: 600;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+     .image_poster{
+        max-width: 100%;
+        border-radius: 5px;
+     }
+     .play-cantrol{
+        padding: 10px 50px;
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+        background-color: #2bc5b4;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+
+     }
+     .cantrols{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 5px;
+        overflow: hidden;
+     }
+     .playlist{
+        font-size: 2.2rem;
+        margin-top: 5px;
+        color:rgb(44, 44, 44) ;
+
+     }
+     .era{
+        font-size: 20px;
+        margin-top: 5px;
+        color:rgb(22, 22, 22) ;
+     }
+     .follow-platime{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 5px;
+        font-size: 14px;
+        font-weight: lighter;
+     }
+     .more{
+        position: relative;
+        bottom: 12px;
+        font-size: 40px;
+      
+     }
+
+
+     @media (max-width:880px) {
+        .saavn_body{
+       
+   
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       max-width: 100%;
+    
+    }
+
+    .playlist{
+        font-size: 1.4rem;
+  
+
+     }
+     .era{
+        font-size: 16px;
+        
+     }
+     .title{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        justify-content: center;
+     }
+     }
+    </style>
+</head>
+<body>
+    <div class="saavn_body">
+
+   <div class="poster">
+
+  <img src="./BestOf2000sHindi_20230901051004.jpg" alt="Poster" class="image_poster">
+   </div>
+   <div class="title">
+
+  <div class="playlist">Best Of 2000s - Hindi</div>
+  <div class="era">Golden Era</div>
+  <div class="follow-platime"><span style="margin-right:10px">70.2K Followers</span>  <span style="margin-left:10px">45 Songs</span></div>
+  <div class="cantrols">
+
+    <button class="play-cantrol">Play</button>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="2.5em" height="2.5em" viewBox="0 0 512 512"><path fill="currentColor" d="m256 448l-9-6c-42.78-28.57-96.91-60.86-137-108.32c-42.25-50-62.52-101.35-62-157C48.63 114.54 98.46 64 159.08 64c48.11 0 80.1 28 96.92 48.21C272.82 92 304.81 64 352.92 64c60.62 0 110.45 50.54 111.08 112.65c.56 55.68-19.71 107-62 157c-40.09 47.49-94.22 79.78-137 108.35Z"/></svg>
+ 
+   <div class="more">...</div>
+</div>
+   </div>
+    </div>
+</body>
+</html>
